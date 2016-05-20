@@ -1,0 +1,20 @@
+Markdown Notation
+
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
+
+
+
+HTML
+
+<a href="https://azuredeploy.net/" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
+
+
+
+How it works
+When a user clicks on the button, a “referrer” header is sent to azuredeploy.net which contains the location of the Git repository to deploy from. If you would like to host the button somewhere outside of your Git repository, you can specify a query string in the target URL like so:
+
+<a href="https://azuredeploy.net/?repository=https://github.com/user/repo" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>

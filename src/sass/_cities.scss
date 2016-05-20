@@ -1,0 +1,89 @@
+@mixin fullBgImg($image) {
+  background: url($image) no-repeat center center;
+  background-size: cover;
+}
+
+.Nairobi {
+  @include fullBgImg('./images/NairobiMain.jpg');
+}
+
+.Thika {
+  @include fullBgImg('./images/ThikaMain.jpg');
+}
+
+.Nakuru {
+  @include fullBgImg('./images/NakuruMain.jpg');
+}
+
+.Mombasa {
+  @include fullBgImg('./images/MombasaMain.jpg');
+}
+
+.NairobiSecond {
+  @include fullBgImg('./images/NairobiSecond.jpg');
+}
+
+.NairobiThird {
+  @include fullBgImg('./images/NairobiThird.jpg');
+}
+
+.NakuruSecond {
+  @include fullBgImg('./images/NakuruSecond.jpg');
+}
+
+.MombasaSecond {
+  @include fullBgImg('./images/MombasaSecond.jpg');
+}
+
+.ThikaSecond {
+  @include fullBgImg('./images/ThikaSecond.jpg');
+}
+
+
+// .SanFrancisco {
+//   @include fullBgImg('./images/SanFranciscoMain.jpg');
+// }
+
+// .Seattle {
+//   @include fullBgImg('./images/SeattleMain.jpg');
+// }
+
+// .Chicago {
+//   @include fullBgImg('./images/ChicagoMain.jpg');
+// }
+
+// .NewYork {
+//   @include fullBgImg('./images/NewYorkMain.jpg');
+// }
+
+// .SanFranciscoSecond {
+//   @include fullBgImg('./images/SanFranciscoSecond.jpg');
+// }
+
+// .SanFranciscoThird {
+//   @include fullBgImg('./images/SanFranciscoThird.jpg');
+// }
+
+// .ChicagoSecond {
+//   @include fullBgImg('./images/ChicagoSecond.jpg');
+// }
+
+// .NewYorkSecond {
+//   @include fullBgImg('./images/NewYorkSecond.jpg');
+// }
+
+// .SeattleSecond {
+//   @include fullBgImg('./images/SeattleSecond.jpg');
+// }
+
+.Airplane {
+  @include fullBgImg('./images/Airplane.jpg');
+}
+
+.Friends {
+  @include fullBgImg('./images/Friends.jpg');
+}
+
+.Calendar {
+  @include fullBgImg('./images/Calendar.jpg');
+}
