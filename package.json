@@ -1,7 +1,7 @@
 {
-  "name": "WinRTDemo",
+  "name": "StallsStocks",
   "version": "0.0.1",
-  "description": "WinRT Demo for Hosted Apps",
+  "description": "Stalls Stocks app for reselling stalls in Kenya",
   "repository": {
     "type": "git",
     "url": ""
