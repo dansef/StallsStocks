@@ -1,9 +1,9 @@
 {
-  "start_url": "http://contosotravel.azurewebsites.net",
+  "start_url": "http://stallsstocks.azurewebsites.net", //"http://contosotravel.azurewebsites.net"
   "short_name": "Stall Stocks",
   "icons": [
     {
-      "src": "http://contosotravel.azurewebsites.net/images/logo.png",
+      "src": "http://stallsstocks.azurewebsites.net/images/logo.png",
       "sizes": "150x150"
     }
   ],
